@@ -36,6 +36,8 @@ main {
   border: 1px solid #eee;
   border-radius: 12px;
   padding: 16px;
+   height: auto; 
+  display: block;
 }
 
 .project-card img {
@@ -71,7 +73,15 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  background: #111;
+  color: #fff;
 }
+
+button:hover {
+  opacity: 0.9;
+}
+
+
 
 .skills-grid {
   display: grid;
