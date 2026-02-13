@@ -55,6 +55,18 @@ main {
   max-width: 600px;
 }
 
+.form-message {
+  margin-top: 12px;
+  font-weight: 500;
+  transition: opacity 0.25s ease;
+  opacity: 1;
+}
+
+/* class to hide the message (if you want to toggle it via JS) */
+.form-message.hidden {
+  opacity: 0;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -81,6 +93,10 @@ button:hover {
   opacity: 0.9;
 }
 
+button:focus, input:focus, textarea:focus {
+  outline: 3px solid rgba(255, 2, 133, 0.545);
+  outline-offset: 2px;
+}
 
 
 .skills-grid {
@@ -113,6 +129,27 @@ button:hover {
   border-radius: 999px;
   padding: 8px 12px;
   font-size: 14px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode header {
+  border-bottom: 1px solid #333;
+}
+
+.dark-mode .project-card,
+.dark-mode .skill-card,
+.dark-mode .edu-card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+.dark-mode button {
+  background: #fff;
+  color: #111;
 }
 
 
