@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   line-height: 1.6;
+  
 }
 
 header {
@@ -31,6 +32,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin-top: 16px;
 }
+
 
 .project-card {
   border: 1px solid #eee;
@@ -131,10 +133,8 @@ button:focus, input:focus, textarea:focus {
   font-size: 14px;
 }
 
-.dark-mode {
-  background-color: #121212;
-  color: white;
-}
+
+
 
 .dark-mode header {
   border-bottom: 1px solid #333;
@@ -152,4 +152,87 @@ button:focus, input:focus, textarea:focus {
   color: #111;
 }
 
+
+/* ===== Animated Blob Background (Light + Dark) ===== */
+
+/* Light Mode defaults */
+:root{
+  --bg: #ffffff;
+  --text: #111111;
+
+  --blob-a: rgba(255, 0, 128, 0.45);
+  --blob-b: rgba(128, 0, 255, 0.40);
+  --blob-c: rgba(255, 120, 0, 0.35);
+}
+
+/* Dark Mode overrides */
+.dark-mode{
+  --bg: #0f0f12;
+  --text: #ffffff;
+
+  --blob-a: rgba(255, 0, 128, 0.28);
+  --blob-b: rgba(128, 0, 255, 0.25);
+  --blob-c: rgba(255, 120, 0, 0.18);
+}
+
+/* Apply theme colors */
+body{
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Blob container */
+.bg-blobs{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Blob base style */
+.blob{
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.95;
+  transform: translate3d(0,0,0);
+  animation: float 10s ease-in-out infinite alternate;
+}
+
+/* Individual blobs */
+
+.blob-1{
+  top: -140px;
+  left: -120px;
+  background: var(--blob-b);
+  animation-duration: 1s;
+}
+
+.blob-2{
+  top: 20%;
+  right: -180px;
+  background: var(--blob-a);
+  animation-duration: 1s;
+}
+
+.blob-3{
+  bottom: -200px;
+  left: 30%;
+  background: var(--blob-c);
+  animation-duration: 1s;
+}
+
+@keyframes float{
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(60px, -30px) scale(1.08); }
+  100% { transform: translate(-40px, 50px) scale(0.98); }
+}
+
+.blob{
+  animation: float 10s ease-in-out infinite alternate;
+}
 
