@@ -8,178 +8,185 @@
 </head>
 <body>
 
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
   <header>
     <h1>Danah Ahmed Alalwan</h1>
-    <p>Software Engineering Student | Future Web Developer & Software Engineer</p>
-    <button id="theme-toggle">Toggle Theme</button>
+    <p class="hero-subtitle">Software Engineering Student | Future Web Developer & Software Engineer</p>
+    <p class="intro-note">
+      Explore my projects, skills, education, and activities below, and feel free to contact me using the form at the end of the page.
+    </p>
+    <button
+      id="theme-toggle"
+      type="button"
+      aria-label="Toggle dark mode"
+      title="Switch between light and dark mode"
+    >
+      Toggle Theme
+    </button>
   </header>
-  
-<div class="bg-blobs" aria-hidden="true">
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
-</div>
 
- <main>
+  <main>
 
-  <!-- About Me -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p class="tagline">Design-minded Software Engineering student with a passion for AI.</p>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p class="tagline">Design-minded Software Engineering student with a passion for AI.</p>
 
-    <p>
-      My name is Danah Ahmed Alalwan, and I am a junior Software Engineering student.
-      I am particularly interested in UI/UX design and Artificial Intelligence, and I enjoy creating clean,
-      user-friendly web experiences.
-    </p>
-
-    <p>
-      My long-term goal is to grow as a Web Developer and Software Engineer by building practical projects,
-      improving my technical skills, and delivering professional, well-structured solutions.
-    </p>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-
-    <div class="projects-grid">
-      <article class="project-card">
-        <h3>Smart Study Planner</h3>
-        <p>
-          A responsive web page that helps students organize tasks and deadlines.
-          It includes a clean layout and simple interactions for adding and viewing study items.
-        </p>
-        <p class="tech"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-        <img src="assets/images/Screenshot 2026-02-13 184859.png" alt="Project screenshot placeholder">
-      </article>
-
-      <article class="project-card">
-        <h3> Pentomino game</h3>
-        <p>
-           An interactive puzzle game where users arrange shuffled pieces into their correct positions within a limited time.
-    The game includes a countdown timer, dynamic piece movement, and real-time user interaction.
-        </p>
-          <p>
-    The main objective is to enhance logical thinking and improve time-management skills through an engaging interface.
+      <p>
+        My name is Danah Ahmed Alalwan, and I am a junior Software Engineering student.
+        I am particularly interested in UI/UX design and Artificial Intelligence, and I enjoy creating clean,
+        user-friendly web experiences.
       </p>
-        <p class="tech"><strong>Tech:</strong> IntelliJ, Java</p>
-        <img src="assets/images/Screenshot 2026-02-13 174104.png" alt="Project screenshot placeholder">
-      </article>
-    </div>
-  </section>
 
+      <p>
+        My long-term goal is to grow as a Web Developer and Software Engineer by building practical projects,
+        improving my technical skills, and delivering professional, well-structured solutions.
+      </p>
+    </section>
 
- <!-- Skills + Strengths -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="section-note">
+        Below are some of my projects. Each project card highlights the idea, purpose, and technologies used.
+      </p>
 
- <section id="skills" class="section">
-  <h2>Skills</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Smart Study Planner</h3>
+          <p>
+            A responsive web page that helps students organize tasks and deadlines.
+            It includes a clean layout and simple interactions for adding and viewing study items.
+          </p>
+          <p class="tech"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+          <img src="assets/images/Screenshot 2026-02-13 184859.png" alt="Screenshot of the Smart Study Planner project">
+        </article>
 
-  <div class="skills-grid">
-    <div class="skill-card">
-      <h3>Technical Skills</h3>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python, Java</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Design Tools</h3>
-      <ul>
-        <li>Figma</li>
-        <li>Canva</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h3>Strengths</h3>
-      <ul>
-        <li>Teamwork</li>
-        <li>Time Management</li>
-        <li>Problem Solving</li>
-        <li>Creativity</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- Education -->
-<section id="education" class="section">
-  <h2>Education</h2>
-
-  <div class="edu-card">
-    <h3>King Fahd University of Petroleum & Minerals (KFUPM)</h3>
-    <p><strong>Major:</strong> Software Engineering (SWE)</p>
-    <p><strong>Expected Graduation:</strong> 2027</p>
-  </div>
-</section>
-
-<!-- Activities / Clubs -->
-
-<section id="activities" class="section">
-  <h2>Activities & Clubs</h2>
-
-  <ul class="activities-list">
-    <li>Member, CPG Club (KFUPM)</li>
-    <li>Member, Electrical Engineering Club (KFUPM)</li>
-    <li>Member, Photography Club (KFUPM)</li>
-  </ul>
-</section>
-
-<!-- Hobbies & Interests -->
- 
-<section id="hobbies" class="section">
-  <h2>Hobbies & Interests</h2>
-
-  <div class="hobbies-grid">
-    <span class="chip">Reading</span>
-    <span class="chip">Design</span>
-    <span class="chip">Digital Drawing</span>
-    <span class="chip">Programming</span>
-    <span class="chip">Esports</span>
-    <span class="chip">Learning New Technologies</span>
-    <span class="chip">3D Art & Modeling</span>
-  </div>
-</section>
-
-
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>
-      Feel free to reach out for collaboration, opportunities, or questions.
-      You can contact me at: <a href="mailto:s202251380@kfupm.edu.sa">s202251380@kfupm.edu.sa</a>
-    </p>
-
-    <form id="contact-form" class="contact-form">
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+        <article class="project-card">
+          <h3>Pentomino Game</h3>
+          <p>
+            An interactive puzzle game where users arrange shuffled pieces into their correct positions within a limited time.
+            The game includes a countdown timer, dynamic piece movement, and real-time user interaction.
+          </p>
+          <p>
+            The main objective is to enhance logical thinking and improve time-management skills through an engaging interface.
+          </p>
+          <p class="tech"><strong>Tech:</strong> IntelliJ, Java</p>
+          <img src="assets/images/Screenshot 2026-02-13 174104.png" alt="Screenshot of the Pentomino Game project">
+        </article>
       </div>
+    </section>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="Enter your email" required>
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Design Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Strengths</h3>
+          <ul>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Problem Solving</li>
+            <li>Creativity</li>
+          </ul>
+        </div>
       </div>
+    </section>
 
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5"
-        placeholder="Write your message here. Please include your purpose of contact (e.g., collaboration, project discussion, opportunity)." required></textarea>
+    <section id="education" class="section">
+      <h2>Education</h2>
+
+      <div class="edu-card">
+        <h3>King Fahd University of Petroleum & Minerals (KFUPM)</h3>
+        <p><strong>Major:</strong> Software Engineering (SWE)</p>
+        <p><strong>Expected Graduation:</strong> 2027</p>
       </div>
+    </section>
 
-      <button type="submit">Send Message</button>
-      <p id="form-message" class="form-message"></p>
-    </form>
-  </section>
+    <section id="activities" class="section">
+      <h2>Activities & Clubs</h2>
 
-</main>
+      <ul class="activities-list">
+        <li>Member, CPG Club (KFUPM)</li>
+        <li>Member, Electrical Engineering Club (KFUPM)</li>
+        <li>Member, Photography Club (KFUPM)</li>
+      </ul>
+    </section>
 
+    <section id="hobbies" class="section">
+      <h2>Hobbies & Interests</h2>
+
+      <div class="hobbies-grid">
+        <span class="chip">Reading</span>
+        <span class="chip">Design</span>
+        <span class="chip">Digital Drawing</span>
+        <span class="chip">Programming</span>
+        <span class="chip">Esports</span>
+        <span class="chip">Learning New Technologies</span>
+        <span class="chip">3D Art & Modeling</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        Feel free to reach out for collaboration, opportunities, or questions.
+        You can contact me at:
+        <a href="mailto:s202251380@kfupm.edu.sa">s202251380@kfupm.edu.sa</a>
+      </p>
+      <p class="section-note">
+        Please fill out all fields below. After submitting, you will see a confirmation message.
+      </p>
+
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" name="name" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write your message here and include the purpose of contact."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+        <p id="form-message" class="form-message hidden" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
 
   <script src="js/script.js"></script>
 </body>
 </html>
-
-
