@@ -1,6 +1,5 @@
-# 202251380-DanahAlalwan-assignment1
+# 202251380-DanahAlalwan-assignment1  
 # Personal Portfolio – Assignment 1  
-**Repository:** 202251380-DanahAlalwan-assignment1  
 
 ---
 
@@ -8,9 +7,9 @@
 
 This project is a responsive personal portfolio website developed as part of Assignment 1 for the Software Engineering course.
 
-The purpose of this project is to apply fundamental web development concepts using HTML, CSS, and JavaScript while integrating AI-assisted tools responsibly.
+The main goal of this project is to apply core web development concepts using HTML, CSS, and JavaScript, while also integrating AI-assisted tools in a responsible and academic manner.
 
-The website presents my academic background, skills, projects, and contact information in a clean, structured, and professional layout.
+The website showcases my background, technical skills, projects, and contact information through a clean, structured, and user-friendly interface.
 
 ---
 
@@ -21,17 +20,24 @@ The website presents my academic background, skills, projects, and contact infor
 **University:** King Fahd University of Petroleum & Minerals (KFUPM)  
 **Expected Graduation:** 2027  
 
-I am passionate about UI/UX design and Artificial Intelligence. My long-term goal is to become a professional Web Developer and Software Engineer by continuously improving my technical and problem-solving skills.
+I am passionate about UI/UX design and Artificial Intelligence. I enjoy building visually clean and user-friendly interfaces, and I aim to grow as a professional Web Developer and Software Engineer by continuously improving my technical and problem-solving skills.
 
 ---
 
 ## 🚀 Features
 
-- Responsive design (desktop, tablet, and mobile support)
-- Dark / Light theme toggle
+- Fully responsive design (desktop, tablet, and mobile)
+- Dark / Light mode toggle using CSS variables
+- Animated background (floating blobs)
 - Interactive contact form (no page reload)
-- Clean and professional user interface
-- Structured sections:
+- Clear and structured layout
+- Improved user guidance and accessibility:
+  - Descriptive labels and placeholders in forms
+  - Accessible theme toggle button (ARIA + title)
+  - Instructional text for key sections
+  - Visual feedback for user actions
+
+- Organized sections:
   - About
   - Projects
   - Skills
@@ -45,9 +51,21 @@ I am passionate about UI/UX design and Artificial Intelligence. My long-term goa
 ## 🛠 Technologies Used
 
 - HTML5  
-- CSS3 (Grid & Flexbox)  
+- CSS3 (Grid, Flexbox, CSS Variables)  
 - JavaScript (DOM Manipulation & Event Handling)  
 - Git & GitHub  
+
+---
+
+## 🎨 Design & UX Improvements
+
+The project focuses on both visual design and user experience:
+
+- Consistent theming using CSS variables (light/dark mode)
+- Smooth transitions between themes
+- Clear navigation and readable layout
+- User-friendly form design with validation and feedback
+- Accessible and interactive UI elements (focus states, hover effects)
 
 ---
 
@@ -59,12 +77,13 @@ Detailed documentation of AI usage is available here:
 [AI Usage Report](docs/ai-usage-report.md)
 
 AI was used for:
-- Clarifying development concepts
-- Debugging and refining code structure
-- Improving layout organization
-- Enhancing professional writing tone
+- Clarifying development concepts  
+- Debugging and refining code structure  
+- Improving UI/UX decisions  
+- Enhancing code organization and readability  
+- Improving documentation and writing quality  
 
-All suggestions were reviewed, modified, and tested independently to ensure understanding and academic integrity.
+All suggestions were carefully reviewed, tested, and adapted to ensure full understanding and academic integrity.
 
 ---
 
@@ -82,9 +101,9 @@ git clone https://github.com/DanahAlalwan/202251380-DanahAlalwan-assignment1.git
 cd 202251380-DanahAlalwan-assignment1
 ```
 
-3. Open `index.html` in your preferred web browser.
+3. Open `index.html` in your browser.
 
-No additional installation is required.
+No additional setup or installation is required.
 
 ---
 
@@ -100,9 +119,8 @@ This project can be deployed using:
 
 ## 📄 Academic Integrity
 
-This project was completed individually.  
+This project was completed individually.
 
-AI tools were used responsibly as learning support tools and are fully documented in the AI Usage Report.  
+AI tools were used responsibly as learning support tools and are fully documented in the AI Usage Report.
 
 All code was reviewed, understood, and adapted to meet assignment requirements.
-
